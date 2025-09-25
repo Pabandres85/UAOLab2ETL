@@ -20,7 +20,7 @@ Este proyecto empaqueta el pipeline del **Laboratorio 1** dentro de **Apache Air
 
 ```text
 airflow-etl/
-├─ .env                               # UID de Airflow (opcional)
+├─ .env                               # UID de Airflow
 ├─ docker-compose.yml                 # Servicios: airflow-init, scheduler, webserver
 ├─ requirements.txt                   # Dependencias del DAG/ETL (pandas, lxml, pyyaml, pyarrow)
 ├─ README.md                          # Este documento
