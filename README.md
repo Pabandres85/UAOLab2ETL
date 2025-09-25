@@ -189,8 +189,8 @@ airflow-etl/
 
 ## Consideraciones
 
-* La base de metadatos de Airflow se ejecuta sobre **SQLite** solo para **desarrollo**. Para producción, se recomienda Postgres/MySQL y un ejecutor distribuido.
-* El monitoreo de esta entrega se limita a `state/etl.log` y al historial de Airflow. No se incluyó la tabla `etl_monitor` en SQLite.
+* La base de metadatos de Airflow se ejecuta sobre **SQLite**.
+* El monitoreo de esta entrega se limita a `state/etl.log` y al historial de Airflow.
 * Los umbrales y reglas de negocio pueden ajustarse en `include/config.yaml` sin modificar el DAG.
 
 ---
