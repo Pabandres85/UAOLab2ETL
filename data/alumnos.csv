@@ -1,0 +1,10 @@
+id_alumno,nombre,apellido,grado,correo,fecha_nacimiento
+A001,Laura,Gómez,6,laura.gomez@colegio.edu,2013-05-12
+A002,Camilo,Ruiz,6,,2013-11-23
+A003,Valentina,Moreno,7,valentina.moreno@colegio.edu,2012-03-04
+A004,Santiago,Rojas,7,,2012-09-15
+A005,María,Quintero,8,maria.quintero@colegio.edu,2011-07-28
+A006,Andrés,Pérez,8,,2011-12-10
+A007,Nicolás,Castro,9,nicolas.castro@colegio.edu,2010-02-19
+A008,Sofía,Salazar,9,sofia.salazar@colegio.edu,2010-08-30
+A008,Sofía,Salazar,9,sofia.salazar@colegio.edu,2010-08-30

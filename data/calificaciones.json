@@ -1,0 +1,80 @@
+[
+  {
+    "id_alumno": "A001",
+    "asignatura": "Matemáticas",
+    "periodo": 1,
+    "nota": 4.5
+  },
+  {
+    "id_alumno": "A001",
+    "asignatura": "Ciencias",
+    "periodo": 1,
+    "nota": 4.0
+  },
+  {
+    "id_alumno": "A001",
+    "asignatura": "Lengua",
+    "periodo": 1,
+    "nota": 5.1
+  },
+  {
+    "id_alumno": "A002",
+    "asignatura": "Matemáticas",
+    "periodo": 1,
+    "nota": 3.2
+  },
+  {
+    "id_alumno": "A002",
+    "asignatura": "Ciencias",
+    "periodo": 1,
+    "nota": 2.8
+  },
+  {
+    "id_alumno": "A003",
+    "asignatura": "Matemáticas",
+    "periodo": 1,
+    "nota": 4.8
+  },
+  {
+    "id_alumno": "A003",
+    "asignatura": "Lengua",
+    "periodo": 1,
+    "nota": 4.1
+  },
+  {
+    "id_alumno": "A004",
+    "asignatura": "Ciencias",
+    "periodo": 1,
+    "nota": -0.2
+  },
+  {
+    "id_alumno": "A005",
+    "asignatura": "Lengua",
+    "periodo": 1,
+    "nota": 3.9
+  },
+  {
+    "id_alumno": "A006",
+    "asignatura": "Matemáticas",
+    "periodo": 1,
+    "nota": 2.5
+  },
+  {
+    "id_alumno": "A007",
+    "asignatura": "Ciencias",
+    "periodo": 1,
+    "nota": 4.6
+  },
+  {
+    "id_alumno": "A008",
+    "asignatura": "Matemáticas",
+    "periodo": 1,
+    "nota": 4.0
+  },
+  {
+    "id_alumno": "A008",
+    "asignatura": "Lengua",
+    "periodo": 1,
+    "nota": 3.7
+  }
+]

@@ -1,0 +1,3 @@
+aprobacion_minima: 3.0
+escala_maxima: 5.0
+mongo_enabled: false

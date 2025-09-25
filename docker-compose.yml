@@ -1,0 +1,67 @@
+
+services:
+  airflow-init:
+    image: apache/airflow:2.9.2
+    container_name: airflow-init
+    user: "${AIRFLOW_UID:-50000}:0"
+    environment:
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: sqlite:////opt/airflow/state/airflow.db
+      AIRFLOW__CORE__EXECUTOR: SequentialExecutor
+      AIRFLOW__CORE__LOAD_EXAMPLES: "False"
+      AIRFLOW__WEBSERVER__RBAC: "True"
+      AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: "True"
+      _PIP_ADDITIONAL_REQUIREMENTS: ""
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./include:/opt/airflow/include
+      - ./data:/opt/airflow/data
+      - ./outputs:/opt/airflow/outputs
+      - ./state:/opt/airflow/state
+      - ./requirements.txt:/opt/airflow/requirements.txt
+      - ./init:/opt/airflow/init           # script de inicialización
+    entrypoint: ["/bin/bash","-lc"]        # mantiene bash -lc para Windows
+    command: "/opt/airflow/init/init.sh"   # llama al script de init (pip, db, usuario)
+
+  scheduler:
+    image: apache/airflow:2.9.2
+    container_name: airflow-scheduler
+    user: "${AIRFLOW_UID:-50000}:0"
+    environment:
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: sqlite:////opt/airflow/state/airflow.db
+      AIRFLOW__CORE__EXECUTOR: SequentialExecutor
+      AIRFLOW__CORE__LOAD_EXAMPLES: "False"
+      AIRFLOW__WEBSERVER__RBAC: "True"
+      AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: "True"
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./include:/opt/airflow/include
+      - ./data:/opt/airflow/data
+      - ./outputs:/opt/airflow/outputs
+      - ./state:/opt/airflow/state
+    command: ["scheduler"]
+    depends_on:
+      - airflow-init
+    restart: unless-stopped
+
+  webserver:
+    image: apache/airflow:2.9.2
+    container_name: airflow-webserver
+    user: "${AIRFLOW_UID:-50000}:0"
+    environment:
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: sqlite:////opt/airflow/state/airflow.db
+      AIRFLOW__CORE__EXECUTOR: SequentialExecutor
+      AIRFLOW__CORE__LOAD_EXAMPLES: "False"
+      AIRFLOW__WEBSERVER__RBAC: "True"
+      AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: "True"
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./include:/opt/airflow/include
+      - ./data:/opt/airflow/data
+      - ./outputs:/opt/airflow/outputs
+      - ./state:/opt/airflow/state
+    ports:
+      - "8080:8080"
+    command: ["webserver"]
+    depends_on:
+      - scheduler
+    restart: unless-stopped

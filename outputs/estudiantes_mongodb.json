@@ -1,0 +1,291 @@
+[
+  {
+    "_id": "A001",
+    "perfil": {
+      "id_alumno": "A001",
+      "nombre": "Laura",
+      "apellido": "Gómez",
+      "correo": "laura.gomez@colegio.edu",
+      "fecha_nacimiento": "2013-05-12"
+    },
+    "matriculas": [
+      {
+        "anio": "2024",
+        "estado": "Activa",
+        "jornada": "M"
+      }
+    ],
+    "calificaciones": [
+      {
+        "asignatura": "Matemáticas",
+        "periodo": "1",
+        "nota": 0.2
+      },
+      {
+        "asignatura": "Ciencias",
+        "periodo": "1",
+        "nota": 0.2
+      },
+      {
+        "asignatura": "Lengua",
+        "periodo": "1",
+        "nota": 0.3
+      }
+    ],
+    "resumen_academico": {
+      "promedio_general": 0.23,
+      "nota_minima": 0.2,
+      "nota_maxima": 0.3,
+      "asignaturas_cursadas": 3,
+      "asignaturas_aprobadas": 0,
+      "asignaturas_reprobadas": 3,
+      "clasificacion": "En Riesgo"
+    }
+  },
+  {
+    "_id": "A002",
+    "perfil": {
+      "id_alumno": "A002",
+      "nombre": "Camilo",
+      "apellido": "Ruiz",
+      "correo": "",
+      "fecha_nacimiento": "2013-11-23"
+    },
+    "matriculas": [
+      {
+        "anio": "2024",
+        "estado": "Activa",
+        "jornada": "T"
+      }
+    ],
+    "calificaciones": [
+      {
+        "asignatura": "Matemáticas",
+        "periodo": "1",
+        "nota": 0.2
+      },
+      {
+        "asignatura": "Ciencias",
+        "periodo": "1",
+        "nota": 0.1
+      }
+    ],
+    "resumen_academico": {
+      "promedio_general": 0.15,
+      "nota_minima": 0.1,
+      "nota_maxima": 0.2,
+      "asignaturas_cursadas": 2,
+      "asignaturas_aprobadas": 0,
+      "asignaturas_reprobadas": 2,
+      "clasificacion": "En Riesgo"
+    }
+  },
+  {
+    "_id": "A003",
+    "perfil": {
+      "id_alumno": "A003",
+      "nombre": "Valentina",
+      "apellido": "Moreno",
+      "correo": "valentina.moreno@colegio.edu",
+      "fecha_nacimiento": "2012-03-04"
+    },
+    "matriculas": [
+      {
+        "anio": "2024",
+        "estado": "Activa",
+        "jornada": "M"
+      }
+    ],
+    "calificaciones": [
+      {
+        "asignatura": "Matemáticas",
+        "periodo": "1",
+        "nota": 0.2
+      },
+      {
+        "asignatura": "Lengua",
+        "periodo": "1",
+        "nota": 0.2
+      }
+    ],
+    "resumen_academico": {
+      "promedio_general": 0.2,
+      "nota_minima": 0.2,
+      "nota_maxima": 0.2,
+      "asignaturas_cursadas": 2,
+      "asignaturas_aprobadas": 0,
+      "asignaturas_reprobadas": 2,
+      "clasificacion": "En Riesgo"
+    }
+  },
+  {
+    "_id": "A004",
+    "perfil": {
+      "id_alumno": "A004",
+      "nombre": "Santiago",
+      "apellido": "Rojas",
+      "correo": "",
+      "fecha_nacimiento": "2012-09-15"
+    },
+    "matriculas": [
+      {
+        "anio": "2024",
+        "estado": "Retirada",
+        "jornada": "M"
+      }
+    ],
+    "calificaciones": [
+      {
+        "asignatura": "Ciencias",
+        "periodo": "1",
+        "nota": 0.0
+      }
+    ],
+    "resumen_academico": {
+      "promedio_general": 0.0,
+      "nota_minima": 0.0,
+      "nota_maxima": 0.0,
+      "asignaturas_cursadas": 1,
+      "asignaturas_aprobadas": 0,
+      "asignaturas_reprobadas": 1,
+      "clasificacion": "En Riesgo"
+    }
+  },
+  {
+    "_id": "A005",
+    "perfil": {
+      "id_alumno": "A005",
+      "nombre": "María",
+      "apellido": "Quintero",
+      "correo": "maria.quintero@colegio.edu",
+      "fecha_nacimiento": "2011-07-28"
+    },
+    "matriculas": [
+      {
+        "anio": "2024",
+        "estado": "Activa",
+        "jornada": "T"
+      }
+    ],
+    "calificaciones": [
+      {
+        "asignatura": "Lengua",
+        "periodo": "1",
+        "nota": 0.2
+      }
+    ],
+    "resumen_academico": {
+      "promedio_general": 0.2,
+      "nota_minima": 0.2,
+      "nota_maxima": 0.2,
+      "asignaturas_cursadas": 1,
+      "asignaturas_aprobadas": 0,
+      "asignaturas_reprobadas": 1,
+      "clasificacion": "En Riesgo"
+    }
+  },
+  {
+    "_id": "A006",
+    "perfil": {
+      "id_alumno": "A006",
+      "nombre": "Andrés",
+      "apellido": "Pérez",
+      "correo": "",
+      "fecha_nacimiento": "2011-12-10"
+    },
+    "matriculas": [
+      {
+        "anio": "2024",
+        "estado": "Activa",
+        "jornada": "M"
+      }
+    ],
+    "calificaciones": [
+      {
+        "asignatura": "Matemáticas",
+        "periodo": "1",
+        "nota": 0.1
+      }
+    ],
+    "resumen_academico": {
+      "promedio_general": 0.1,
+      "nota_minima": 0.1,
+      "nota_maxima": 0.1,
+      "asignaturas_cursadas": 1,
+      "asignaturas_aprobadas": 0,
+      "asignaturas_reprobadas": 1,
+      "clasificacion": "En Riesgo"
+    }
+  },
+  {
+    "_id": "A007",
+    "perfil": {
+      "id_alumno": "A007",
+      "nombre": "Nicolás",
+      "apellido": "Castro",
+      "correo": "nicolas.castro@colegio.edu",
+      "fecha_nacimiento": "2010-02-19"
+    },
+    "matriculas": [
+      {
+        "anio": "2024",
+        "estado": "Activa",
+        "jornada": "T"
+      }
+    ],
+    "calificaciones": [
+      {
+        "asignatura": "Ciencias",
+        "periodo": "1",
+        "nota": 0.2
+      }
+    ],
+    "resumen_academico": {
+      "promedio_general": 0.2,
+      "nota_minima": 0.2,
+      "nota_maxima": 0.2,
+      "asignaturas_cursadas": 1,
+      "asignaturas_aprobadas": 0,
+      "asignaturas_reprobadas": 1,
+      "clasificacion": "En Riesgo"
+    }
+  },
+  {
+    "_id": "A008",
+    "perfil": {
+      "id_alumno": "A008",
+      "nombre": "Sofía",
+      "apellido": "Salazar",
+      "correo": "sofia.salazar@colegio.edu",
+      "fecha_nacimiento": "2010-08-30"
+    },
+    "matriculas": [
+      {
+        "anio": "2024",
+        "estado": "Activa",
+        "jornada": "M"
+      }
+    ],
+    "calificaciones": [
+      {
+        "asignatura": "Matemáticas",
+        "periodo": "1",
+        "nota": 0.2
+      },
+      {
+        "asignatura": "Lengua",
+        "periodo": "1",
+        "nota": 0.2
+      }
+    ],
+    "resumen_academico": {
+      "promedio_general": 0.2,
+      "nota_minima": 0.2,
+      "nota_maxima": 0.2,
+      "asignaturas_cursadas": 2,
+      "asignaturas_aprobadas": 0,
+      "asignaturas_reprobadas": 2,
+      "clasificacion": "En Riesgo"
+    }
+  }
+]

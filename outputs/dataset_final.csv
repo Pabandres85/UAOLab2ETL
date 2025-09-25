@@ -1,0 +1,9 @@
+id_alumno,nombre,apellido,grado,correo,fecha_nacimiento,anio,estado,jornada,promedio_general,nota_minima,nota_maxima,asignaturas_cursadas,aprobadas,reprobadas,clasificacion_rendimiento
+A001,Laura,Gómez,6,laura.gomez@colegio.edu,2013-05-12,2024,Activa,M,0.23,0.2,0.3,3,0,3,En Riesgo
+A002,Camilo,Ruiz,6,,2013-11-23,2024,Activa,T,0.15,0.1,0.2,2,0,2,En Riesgo
+A003,Valentina,Moreno,7,valentina.moreno@colegio.edu,2012-03-04,2024,Activa,M,0.2,0.2,0.2,2,0,2,En Riesgo
+A004,Santiago,Rojas,7,,2012-09-15,2024,Retirada,M,0.0,0.0,0.0,1,0,1,En Riesgo
+A005,María,Quintero,8,maria.quintero@colegio.edu,2011-07-28,2024,Activa,T,0.2,0.2,0.2,1,0,1,En Riesgo
+A006,Andrés,Pérez,8,,2011-12-10,2024,Activa,M,0.1,0.1,0.1,1,0,1,En Riesgo
+A007,Nicolás,Castro,9,nicolas.castro@colegio.edu,2010-02-19,2024,Activa,T,0.2,0.2,0.2,1,0,1,En Riesgo
+A008,Sofía,Salazar,9,sofia.salazar@colegio.edu,2010-08-30,2024,Activa,M,0.2,0.2,0.2,2,0,2,En Riesgo
