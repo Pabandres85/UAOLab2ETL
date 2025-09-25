@@ -1,6 +1,5 @@
-# Universidad Autonoma de Occidente 
 ![Logo UAO](images/logoUAO.jpg)
-
+# Universidad Autonoma de Occidente 
 # Maestria en IA y Ciencias de datos
 ---
 # Integrantes:
