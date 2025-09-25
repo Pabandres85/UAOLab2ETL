@@ -135,10 +135,10 @@ airflow-etl/
 ![Log de corridas almacenado en `state/etl.log`](images/logetl.jpg)
 
 #### Log en Airflow
-![Archivo generado en `outputs/dataset_final.csv`](images/outcsv.jpg)
+![Archivo generado en `outputs/dataset_final.csv`](images/ariflowlog.jpg)
 
 #### Salida CSV
-![Archivo generado en `outputs/dataset_final.csv`](images/ariflowlog.jpg)
+![Archivo generado en `outputs/dataset_final.csv`](images/outcsv.jpg)
 
 #### Compilacion en Docker
 ![Servicios corriendo con Docker Compose](images/compose-up1.jpg)
