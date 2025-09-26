@@ -129,7 +129,13 @@ airflow-etl/
 #### Airflow UI status
 ![DAG `etl_alumnos_dag` habilitado y listo para disparo](images/uiairflow3.jpg)
 
-#### Ejecución del DAG
+#### Airflow Act
+![DAG `ectividad` habilitado y listo para disparo](images/ariflowlogactiv.jpg)
+
+#### Airflow users
+![DAG `ectividad` habilitado y listo para disparo](images/ariflowlogusers.jpg)
+
+####  DAG
 ![DAG encendido y ejecución lanzada](images/dag1.jpg)
 
 #### Log del ETL
@@ -138,8 +144,14 @@ airflow-etl/
 #### Log en Airflow
 ![Archivo generado en `outputs/dataset_final.csv`](images/ariflowlog.jpg)
 
+#### etl.db Monitor
+![Archivo generado en `outputs/dataset_final.csv`](images/etlmonitor.jpg)
+
 #### Salida CSV
 ![Archivo generado en `outputs/dataset_final.csv`](images/outcsv.jpg)
+
+#### Salida JSON
+![Archivo generado en `outputs/dataset_final.csv`](outjson.jpg)
 
 #### Compilacion en Docker
 ![Servicios corriendo con Docker Compose](images/compose-up1.jpg)
