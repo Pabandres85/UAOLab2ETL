@@ -6,7 +6,7 @@
 * Pablo Andres Muñoz Martinez.
 * Andres Felipe Hernandez
 * Omar Sanchez
-* Armando Betancurt
+* Armando Betancourt
 ---
 
 # Laboratorio 2 — ETL Automatizado con Logs y Monitoreo (Airflow en Docker)
@@ -151,7 +151,7 @@ airflow-etl/
 ![Archivo generado en `outputs/dataset_final.csv`](images/outcsv.jpg)
 
 #### Salida JSON
-![Archivo generado en `outputs/dataset_final.csv`](outjson.jpg)
+![Archivo generado en `outputs/dataset_final.csv`](images/outjson.jpg)
 
 #### Compilacion en Docker
 ![Servicios corriendo con Docker Compose](images/compose-up1.jpg)
