@@ -162,6 +162,7 @@ airflow-etl/
 
 * Script automatizado (DAG + utilidades): `dags/etl_alumnos_dag.py`, `dags/etl_utils.py`.
 * Archivo de log de la ejecución: `state/etl.log`.
+* Base	local	(etl.db)	con	la	tabla	etl_monitor.
 * Artefactos del ETL: `outputs/dataset_final.csv` y `outputs/estudiantes_mongodb.json`.
 * Evidencia de programación/operación: pantallazo(s) de la UI de Airflow mostrando el DAG activo y su última corrida.
 
